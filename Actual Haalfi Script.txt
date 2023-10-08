@@ -1,0 +1,5 @@
+if getgenv().Device == "PC" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImHaalfi/random-trash-project/main/HaaIfi-Ware-PC.txt"))() 
+elseif getgenv().Device == "Mobile" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImHaalfi/random-trash-project/main/HaaIfi-Ware-Mobile.txt"))()
+end
